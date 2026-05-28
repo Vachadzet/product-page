@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         quantityCount.innerText = currentQuantity;
     }
 
-    // დესკტოპ გალერეა
+    
     thumbs.forEach(thumb => {
         thumb.addEventListener("click", (e) => {
             currentImgIndex = parseInt(e.target.dataset.index, 10);
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // კალათის ფუნქციონალი
+    
     cartIconBtn.addEventListener("click", () => {
         cartDropdown.classList.toggle("show");
     });
