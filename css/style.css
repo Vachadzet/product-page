@@ -1,4 +1,4 @@
- @media (min-width: 1440px) {
+ @media (max-width :768px) {
     body { padding: 0; }
     
     .navbar {
