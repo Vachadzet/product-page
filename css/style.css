@@ -28,6 +28,7 @@ body {
 .navbar {
   padding: 1.25rem;
   border-bottom: none;
+  display: flex;
 }
 
 .burger-btn {
@@ -126,6 +127,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .old-price {
@@ -371,7 +373,7 @@ body {
   }
 
   .slider-btn {
-    display: none; 
+    display: flex; 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -383,6 +385,7 @@ body {
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
 
   .slider-btn.prev {
